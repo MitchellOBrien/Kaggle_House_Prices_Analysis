@@ -6,8 +6,9 @@ My R markdown for the Housing Prices Kaggle competition.
 title: "Housing_Competition"
 author: "Mitchell O'Brien"
 date: "July 27, 2018"
-output:
-  rmarkdown::github_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE, cache=TRUE}
