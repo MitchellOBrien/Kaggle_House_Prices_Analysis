@@ -7,8 +7,7 @@ title: "Housing_Competition"
 author: "Mitchell O'Brien"
 date: "July 27, 2018"
 output:
-  html_document: default
-  word_document: default
+  rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE, cache=TRUE}
